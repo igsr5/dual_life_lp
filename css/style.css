@@ -5,6 +5,22 @@ body {
     position: relative;
 }
 
+.container {
+    max-width: 1030px;
+    padding: 0 35px;
+    margin: 0 auto;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
 
 /* ヘッダー部分 */
 
@@ -37,9 +53,45 @@ header .row {
     margin-top: 15px;
 }
 
+
+/* トップ部分 */
+
 .top {
     height: 540px;
     background-image: url('../assets/images/top-image1.png');
     background-size: cover;
     background-position: center;
+}
+
+.t-logo {
+    padding-top: 120px;
+    padding-bottom: 6px;
+}
+
+.t-title {
+    position: relative;
+    width: 660px;
+    margin: 27px auto;
+    transform: translateX(-20px);
+}
+
+.t-title h2 {
+    font-family: A-OTF Kakumin Pro;
+    font-size: 36px;
+    line-height: 1.2;
+    color: #ffffff;
+    background: #000000;
+    margin-right: 49px;
+}
+
+.t-title-2 {
+    margin: 4px 16px 0;
+}
+
+.t-title img {
+    width: 156px;
+    position: absolute;
+    top: -35px;
+    right: -80px;
+    transform: rotate(28deg);
 }
