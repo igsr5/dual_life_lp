@@ -62,3 +62,20 @@ header .row {
     background-size: cover;
     background-position: center;
 }
+
+.t-logo {
+    padding-top: 120px;
+    padding-bottom: 6px;
+}
+
+.t-title {
+    width: 660px;
+    margin: 27px auto;
+}
+
+.t-title h2 {
+    font-family: A-OTF Kakumin Pro;
+    font-size: 36px;
+    /* letter-spacing: 0.02em; */
+    line-height: 1.1;
+}
