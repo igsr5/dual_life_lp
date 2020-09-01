@@ -11,6 +11,16 @@ body {
     margin: 0 auto;
 }
 
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
 
 /* ヘッダー部分 */
 
@@ -42,6 +52,9 @@ header .row {
 .hum-btn>div:last-child {
     margin-top: 15px;
 }
+
+
+/* トップ部分 */
 
 .top {
     height: 540px;
