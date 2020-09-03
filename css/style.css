@@ -95,3 +95,60 @@ header .row {
     right: -80px;
     transform: rotate(28deg);
 }
+
+
+/* About "DUAL LIFE" 部分  */
+
+.about {
+    text-align: center;
+    border-bottom: #aaaaaa 1px solid;
+}
+
+.about h2 {
+    font-size: 42px;
+    line-height: 1.33;
+    font-family: Alex;
+    margin-top: 49px;
+}
+
+.a-title-jp {
+    font-size: 16px;
+    line-height: 1;
+    font-family: Hiragino Sans;
+    margin-bottom: 46px;
+}
+
+.a-cnt {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 55px;
+}
+
+.a-cnt img {
+    margin-right: 66px;
+    max-width: 349px;
+    width: 50%;
+}
+
+.a-title {
+    margin-bottom: 31px;
+}
+
+.a-title h3 {
+    font-family: A-OTF Reimin Y10 Pro;
+    font-size: 30px;
+    line-height: 1.6;
+}
+
+.a-text {
+    text-align: left;
+    padding-top: 25px;
+    max-width: 500px;
+    width: 50%;
+}
+
+.a-text p {
+    font-size: 16px;
+    line-height: 2;
+    font-family: YuGothic;
+}
