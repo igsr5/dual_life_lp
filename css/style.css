@@ -7,8 +7,12 @@ body {
 
 .container {
     max-width: 1030px;
-    padding: 0 35px;
+    padding: 0;
     margin: 0 auto;
+}
+
+.row {
+    margin: 0;
 }
 
 p,
@@ -115,6 +119,7 @@ header .row {
     font-size: 16px;
     line-height: 1;
     font-family: Hiragino Sans;
+    margin-top: 13px;
     margin-bottom: 46px;
 }
 
@@ -151,4 +156,74 @@ header .row {
     font-size: 16px;
     line-height: 2;
     font-family: YuGothic;
+}
+
+
+/* プレプログラム部分 */
+
+.p-title {
+    text-align: center;
+}
+
+.p-title h2 {
+    font-size: 42px;
+    line-height: 1.33;
+    font-family: Alex;
+    margin-top: 33px;
+}
+
+.p-title-jp {
+    font-size: 16px;
+    line-height: 1;
+    font-family: Hiragino Sans;
+    margin-top: 13px;
+    margin-bottom: 40px;
+}
+
+.p-logo img {
+    padding: 0;
+}
+
+.p-bg {
+    background-image: url('../assets/images/pre_program.png');
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.p-bg .container {
+    position: relative;
+    padding: 0;
+    height: 40px;
+    background: #ffffff;
+}
+
+.p-bg img {
+    position: absolute;
+    top: -65px;
+    left: -100px;
+    width: 140px;
+}
+
+.p-sub-title {
+    text-align: center;
+    margin-bottom: 38px;
+}
+
+.p-sub-title h3 {
+    line-height: 1;
+    font-family: A-OTF Reimin Y10 Pro;
+    font-size: 30px;
+}
+
+.p-sub-title h3:nth-child(1) {
+    margin-bottom: 15px;
+}
+
+.p-status {
+    height: 90px;
+    background: #F0FAFF;
 }
