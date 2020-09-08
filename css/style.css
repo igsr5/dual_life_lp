@@ -1,154 +1,404 @@
-/* ページ全体の設定 */
-
-body {
-    margin: 0;
-    position: relative;
-}
-
-.container {
-    max-width: 1030px;
-    padding: 0 35px;
-    margin: 0 auto;
-}
-
-p,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    margin: 0;
-}
-
-
-/* ヘッダー部分 */
-
-header {
-    position: absolute;
-    top: 0;
-    width: 100%;
-    height: 90px;
-}
-
-header>.container {
-    height: 100%;
-}
-
-header .row {
-    height: 100%;
-}
-
-.hum-btn {
-    height: 21px;
-    width: 50px;
-}
-
-.hum-btn>div {
-    height: 3px;
-    background-color: #000000;
-}
-
-.hum-btn>div:last-child {
-    margin-top: 15px;
-}
-
-
-/* トップ部分 */
-
-.top {
-    height: 540px;
-    background-image: url('../assets/images/top-image1.png');
-    background-size: cover;
-    background-position: center;
-}
-
-.t-logo {
-    padding-top: 120px;
-    padding-bottom: 6px;
-}
-
-.t-title {
-    position: relative;
-    width: 660px;
-    margin: 27px auto;
-    transform: translateX(-20px);
-}
-
-.t-title h2 {
-    font-family: A-OTF Kakumin Pro;
-    font-size: 36px;
-    line-height: 1.2;
-    color: #ffffff;
-    background: #000000;
-    margin-right: 49px;
-}
-
-.t-title-2 {
-    margin: 4px 16px 0;
-}
-
-.t-title img {
-    width: 156px;
-    position: absolute;
-    top: -35px;
-    right: -80px;
-    transform: rotate(28deg);
-}
-
-
-/* About "DUAL LIFE" 部分  */
-
-.about {
-    text-align: center;
-    border-bottom: #aaaaaa 1px solid;
-}
-
-.about h2 {
-    font-size: 42px;
-    line-height: 1.33;
-    font-family: Alex;
-    margin-top: 49px;
-}
-
-.a-title-jp {
-    font-size: 16px;
-    line-height: 1;
-    font-family: Hiragino Sans;
-    margin-bottom: 46px;
-}
-
-.a-cnt {
-    display: flex;
-    justify-content: flex-end;
-    margin-bottom: 55px;
-}
-
-.a-cnt img {
-    margin-right: 66px;
-    max-width: 349px;
-    width: 50%;
-}
-
-.a-title {
-    margin-bottom: 31px;
-}
-
-.a-title h3 {
-    font-family: A-OTF Reimin Y10 Pro;
-    font-size: 30px;
-    line-height: 1.6;
-}
-
-.a-text {
-    text-align: left;
-    padding-top: 25px;
-    max-width: 500px;
-    width: 50%;
-}
-
-.a-text p {
-    font-size: 16px;
-    line-height: 2;
-    font-family: YuGothic;
-}
+            /* ページ全体の設定 */
+            
+            body {
+                margin: 0;
+                position: relative;
+            }
+            
+            .container {
+                width: 71.5%;
+                max-width: 1030px;
+                padding: 0;
+                margin: 0 auto;
+            }
+            
+            .row {
+                margin: 0;
+            }
+            
+            p,
+            h1,
+            h2,
+            h3,
+            h4,
+            h5,
+            h6 {
+                margin: 0;
+            }
+            /* ヘッダー部分 */
+            
+            header {
+                position: absolute;
+                top: 0;
+                width: 100%;
+                height: 90px;
+            }
+            
+            header>.container {
+                height: 100%;
+            }
+            
+            header .row {
+                height: 100%;
+            }
+            
+            .hum-btn {
+                height: 21px;
+                width: 50px;
+            }
+            
+            .hum-btn>div {
+                height: 3px;
+                background-color: #000000;
+            }
+            
+            .hum-btn>div:last-child {
+                margin-top: 15px;
+            }
+            /* トップ部分 */
+            
+            .top {
+                height: 540px;
+                background-image: url('../assets/images/top-image1.png');
+                background-size: cover;
+                background-position: center;
+            }
+            
+            .t-logo {
+                padding-top: 120px;
+                padding-bottom: 6px;
+            }
+            
+            .t-title {
+                position: relative;
+                width: 660px;
+                margin: 27px auto;
+                transform: translateX(-20px);
+            }
+            
+            .t-title h2 {
+                font-family: A-OTF Kakumin Pro;
+                font-size: 36px;
+                line-height: 1.2;
+                color: #ffffff;
+                background: #000000;
+                margin-right: 49px;
+            }
+            
+            .t-title-2 {
+                margin: 4px 16px 0;
+            }
+            
+            .t-title img {
+                width: 156px;
+                position: absolute;
+                top: -35px;
+                right: -80px;
+                transform: rotate(28deg);
+            }
+            /* About "DUAL LIFE" 部分  */
+            
+            .about {
+                text-align: center;
+                border-bottom: #aaaaaa 1px solid;
+            }
+            
+            .about h2 {
+                font-size: 42px;
+                line-height: 1.33;
+                font-family: Alex;
+                margin-top: 49px;
+            }
+            
+            .a-title-jp {
+                font-size: 16px;
+                line-height: 1;
+                font-family: Hiragino Sans;
+                margin-top: 13px;
+                margin-bottom: 46px;
+            }
+            
+            .a-cnt {
+                display: flex;
+                justify-content: flex-end;
+                margin-bottom: 55px;
+            }
+            
+            .a-cnt img {
+                margin-right: 66px;
+                max-width: 349px;
+                width: 50%;
+            }
+            
+            .a-title {
+                margin-bottom: 31px;
+            }
+            
+            .a-title h3 {
+                font-family: A-OTF Reimin Y10 Pro;
+                font-size: 30px;
+                line-height: 1.6;
+            }
+            
+            .a-text {
+                text-align: left;
+                padding-top: 25px;
+                max-width: 500px;
+                width: 50%;
+            }
+            
+            .a-text p {
+                font-size: 16px;
+                line-height: 2;
+                font-family: YuGothic;
+            }
+            /* プレプログラム部分 */
+            
+            .p-title {
+                text-align: center;
+            }
+            
+            .p-title h2 {
+                font-size: 42px;
+                line-height: 1.33;
+                font-family: Alex;
+                margin-top: 33px;
+            }
+            
+            .p-title-jp {
+                font-size: 16px;
+                line-height: 1;
+                font-family: Hiragino Sans;
+                margin-top: 13px;
+                margin-bottom: 40px;
+            }
+            
+            .p-logo img {
+                padding: 0;
+            }
+            
+            .p-bg {
+                background-image: url('../assets/images/pre_program.png');
+                background-position: center;
+                background-size: cover;
+                height: 300px;
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-end;
+            }
+            
+            .p-bg .container {
+                position: relative;
+                padding: 0;
+                height: 40px;
+                background: #ffffff;
+            }
+            
+            .p-bg img {
+                position: absolute;
+                top: -65px;
+                left: -100px;
+                width: 140px;
+            }
+            
+            .p-sub-title {
+                text-align: center;
+                margin-bottom: 38px;
+            }
+            
+            .p-sub-title h3 {
+                line-height: 1;
+                font-family: A-OTF Reimin Y10 Pro;
+                font-size: 30px;
+            }
+            
+            .p-sub-title h3:nth-child(1) {
+                margin-bottom: 15px;
+            }
+            
+            .p-status {
+                height: 90px;
+                background: #F0FAFF;
+                display: flex;
+            }
+            
+            .p-status>div {
+                padding: 0 23px;
+                margin: 12px 0;
+                font-size: 28px;
+                font-family: A-OTF Kakumin Pro;
+            }
+            
+            .p-status>div:not(:last-child) {
+                border-right: solid #ffffff 3px;
+            }
+            
+            .fz-24 {
+                font-size: 24px;
+            }
+            
+            .fz-60 {
+                font-size: 60px;
+                font-family: Barlow;
+                font-weight: bold;
+            }
+            
+            .fz-47 {
+                font-weight: bold;
+                font-family: Barlow;
+                font-size: 47px;
+            }
+            
+            .fw-bold {
+                font-weight: bold;
+                font-family: Barlow;
+            }
+            /* study theme */
+            
+            .st-title {
+                margin: 24px auto;
+                display: block;
+                width: 303px;
+            }
+            
+            .s-cnt {
+                display: flex;
+                justify-content: space-between;
+            }
+            
+            .s-img {
+                display: flex;
+                align-items: center;
+                width: 48%;
+                position: relative;
+            }
+            
+            .s-img img {
+                width: 100%;
+            }
+            
+            .s-img p {
+                height: 29px;
+                background: #ff0000;
+                padding: 0 19px;
+                color: #ffffff;
+                font-size: 18px;
+                line-height: 29px;
+                font-family: Hiragino Sans;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                -webkit-transform: translate(-50%, -50%);
+                -ms-transform: translate(-50%, -50%);
+            }
+            
+            .s-text {
+                width: 49%;
+            }
+            
+            .s-text h4 {
+                letter-spacing: 0.04em;
+                margin: 10px 0;
+                font-size: 24px;
+                line-height: 1.66;
+                font-family: A-OTF Kakumin Pro;
+            }
+            
+            .s-text p {
+                font-family: YuGothic;
+                font-size: 15px;
+                line-height: 1.875;
+                letter-spacing: 0.04em;
+            }
+            
+            .teach-title {
+                margin: 68px auto 30px;
+                display: block;
+                width: 303px;
+            }
+            
+            .t-cnts {
+                display: flex;
+                justify-content: center;
+            }
+            
+            .t-cnt {
+                width: 220px;
+                text-align: center;
+            }
+            
+            .t-cnt:not(:last-child) {
+                margin-right: 50px;
+            }
+            
+            .t-cnt img {
+                width: 100%;
+            }
+            
+            .person-name {
+                margin-top: 16px;
+                font-size: 24px;
+                font-family: YuGothic;
+                line-height: 1.25;
+            }
+            
+            .person-name-en {
+                font-size: 10px;
+                font-family: YuGothic;
+                line-height: 3;
+                margin-bottom: 5px;
+            }
+            
+            .person-status {
+                font-family: YuGothic;
+                font-size: 14px;
+                line-height: 1.42;
+            }
+            
+            .sp-title {
+                margin: 98px auto 26px;
+                display: block;
+                width: 303px;
+            }
+            
+            .study-program {
+                margin-bottom: 76px;
+            }
+            
+            .study-program tr {
+                font-size: 16px;
+                font-family: YuGothic;
+            }
+            
+            .table {
+                margin-bottom: 0;
+            }
+            
+            .study-program tr:last-child td {
+                border-bottom: #dee2e6 1px solid;
+            }
+            
+            .what-do {
+                margin-bottom: 110px;
+                width: 100%;
+                height: 292px;
+                background-size: cover;
+                background-position: center;
+                background-image: url('../assets/images/description-background.png');
+            }
+            
+            .what-do h4 {
+                text-align: center;
+                font-family: A-OTF Kakumin Pro;
+                font-size: 24px;
+                padding-top: 28px;
+            }
+            
+            .what-do p {
+                padding-top: 23px;
+                width: 68%;
+                margin: 0 auto;
+                font-family: YuGothic;
+                font-size: 16px;
+            }
