@@ -115,7 +115,7 @@
             }
             
             .a-title-jp {
-                font-size: 16px;
+                font-size: 12px;
                 line-height: 1;
                 font-family: Hiragino Sans;
                 margin-top: 13px;
@@ -170,7 +170,7 @@
             }
             
             .p-title-jp {
-                font-size: 16px;
+                font-size: 12px;
                 line-height: 1;
                 font-family: Hiragino Sans;
                 margin-top: 13px;
@@ -437,7 +437,7 @@
             }
             
             .semi-title-jp {
-                font-size: 16px;
+                font-size: 12px;
                 line-height: 1;
                 font-family: Hiragino Sans;
                 margin-top: 13px;
@@ -486,7 +486,7 @@
                 font-family: YuGothic;
             }
             
-            .semi-cnt a {
+            .yellow-btn {
                 font-size: 19px;
                 font-weight: bold;
                 font-family: YuGothic;
@@ -537,4 +537,53 @@
                 font-family: YuGothic;
                 font-size: 14px;
                 line-height: 1.4;
+            }
+            /* ONLINE GUIDANCE 部分  */
+            
+            .guidance .container {
+                text-align: center;
+                background-image: url('../assets/images/online-guidance-background.png');
+                background-size: 100% auto;
+                background-repeat: no-repeat;
+                background-position: center bottom;
+            }
+            
+            .g-title {
+                font-size: 42px;
+                font-family: Alex;
+                line-height: 1.33;
+                padding-top: 36px;
+                padding-bottom: 5px;
+            }
+            
+            .g-title-jp {
+                font-size: 12px;
+                font-family: Hiragino Sans;
+                line-height: 1.33;
+            }
+            
+            .g-day {
+                margin-top: 20px;
+                font-family: Hiragino Sans;
+                font-size: 18px;
+                line-height: 1.33;
+            }
+            
+            .g-day span {
+                font-size: 35px;
+                line-height: 1.33;
+                font-weight: bold;
+                font-family: Barlow;
+            }
+            
+            .g-time {
+                font-family: Hiragino Sans;
+                font-size: 12px;
+                line-height: 2;
+            }
+            
+            .guidance .yellow-btn {
+                display: inline-block;
+                margin-bottom: 23px;
+                margin-top: 0;
             }
