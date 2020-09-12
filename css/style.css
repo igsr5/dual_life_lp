@@ -673,3 +673,40 @@
                 background: #6F6F6F;
                 margin-bottom: 0;
             }
+            /*********************
+             * pc用(1024~1440px)
+             *********************/
+            
+            @media screen and (max-width: 1440px) {
+                /* ページ全体の設定 */
+                .container {
+                    width: 90%;
+                }
+                /* Pre-Program 部分 */
+                .p-bg img {
+                    width: 110px;
+                    top: -58px;
+                    left: -33px;
+                }
+                .p-status>div {
+                    font-size: 24px;
+                    width: 100%;
+                    text-align: center;
+                    padding: 0;
+                }
+                .fz-60 {
+                    font-size: 50px;
+                }
+                .fz-24 {
+                    font-size: 18px;
+                }
+            }
+            /*********************
+             * タブレット用(768~1024px)
+             *********************/
+            
+            @media screen and (max-width: 1024px) {
+                .container {
+                    width: 90%;
+                }
+            }
