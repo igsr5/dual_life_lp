@@ -513,21 +513,13 @@
             
             .semi-person {
                 width: 140px;
-                position: relative;
-            }
-            
-            .semi-person div {
-                position: absolute;
-                top: 0;
-                width: 141px;
-                height: 141px;
-                border: #fff 5px solid;
-                border-radius: 50%;
-                box-shadow: 3px 9px 20px rgba(0, 0, 0, 0.2);
             }
             
             .semi-person img {
                 width: 100%;
+                border-radius: 50%;
+                box-shadow: 3px 9px 20px rgba(0, 0, 0, 0.2);
+                border: #fff 5px solid;
             }
             
             .semi-person-name {
@@ -635,4 +627,49 @@
             
             .app-btn:hover {
                 color: #ffffff;
+            }
+            /* footer部分 */
+            
+            footer {
+                color: #ffffff;
+                background: #222222;
+                text-align: center;
+                letter-spacing: 0.04em;
+            }
+            
+            .footer-title {
+                font-size: 42px;
+                font-family: Alex;
+                line-height: 1.33;
+                padding-top: 47px;
+                padding-bottom: 5px;
+            }
+            
+            .footer-title-jp {
+                font-size: 12px;
+                font-family: Hiragino Sans;
+                line-height: 1.33;
+            }
+            
+            .footer-text-1 {
+                font-size: 16px;
+                font-weight: bold;
+                line-height: 1.33;
+                font-family: YuGothic;
+                margin-top: 39px;
+                margin-bottom: 32px;
+            }
+            
+            .footer-text-2 {
+                font-size: 16px;
+                font-weight: bold;
+                line-height: 1.33;
+                font-family: YuGothic;
+                padding-top: 20px;
+                padding-bottom: 45px;
+            }
+            
+            footer .app-btn {
+                background: #6F6F6F;
+                margin-bottom: 0;
             }
