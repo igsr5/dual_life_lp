@@ -673,3 +673,81 @@
                 background: #6F6F6F;
                 margin-bottom: 0;
             }
+            /*********************
+             * pc用(1024~1440px)
+             *********************/
+            
+            @media screen and (max-width: 1440px) {
+                /* ページ全体の設定 */
+                .container {
+                    width: 90%;
+                }
+                /* Pre-Program 部分 */
+                .p-bg img {
+                    width: 110px;
+                    top: -58px;
+                    left: -33px;
+                }
+                .p-status>div {
+                    font-size: 24px;
+                    width: 100%;
+                    text-align: center;
+                    padding: 0;
+                }
+                .fz-60 {
+                    font-size: 50px;
+                }
+                .fz-24 {
+                    font-size: 18px;
+                }
+                /* open seminar部分 */
+                .seminar .container {
+                    width: 93%;
+                }
+                .semi-cnt {
+                    padding: 0 25px;
+                }
+                .semi-cnt h3 {
+                    margin-top: 30px;
+                    margin-bottom: 10px;
+                    font-size: 32px;
+                }
+                .semi-time {
+                    font-size: 24px;
+                }
+                .yellow-btn {
+                    font-size: 16px;
+                    margin-top: 25px;
+                    margin-bottom: 35px;
+                    padding-top: 15px;
+                    padding-bottom: 15px;
+                }
+                .semi-person {
+                    width: 120px;
+                }
+                .semi-person-name {
+                    font-size: 22px;
+                }
+                .semi-perosn-status {
+                    font-size: 14px;
+                }
+                /* ONLINE GUIDANCE 部分 */
+                .g-day {
+                    font-size: 20px;
+                }
+                .g-day span {
+                    font-size: 32px;
+                }
+                .guidance .yellow-btn {
+                    margin-bottom: 20px;
+                }
+            }
+            /*********************
+             * タブレット用(768~1024px)
+             *********************/
+            
+            @media screen and (max-width: 1024px) {
+                .container {
+                    width: 90%;
+                }
+            }
