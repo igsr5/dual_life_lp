@@ -750,4 +750,206 @@
                 .container {
                     width: 90%;
                 }
+                /* トップ部分 */
+                .top {
+                    height: 480px;
+                }
+                .t-logo img {
+                    height: 50px;
+                }
+                .t-title {
+                    width: 590px;
+                }
+                .t-title h2 {
+                    font-size: 32px;
+                }
+                .t-title img {
+                    width: 130px;
+                    top: -28px;
+                    right: -52px;
+                }
+                /* About部分 */
+                .about h2 {
+                    font-size: 36px;
+                }
+                .a-title-jp {
+                    margin-bottom: 40px;
+                }
+                .a-title h3 {
+                    font-size: 24px;
+                }
+                .a-title h3:last-child {
+                    margin-bottom: 20px;
+                }
+                .a-cnt {
+                    margin-bottom: 45px;
+                }
+                .a-cnt img {
+                    margin-right: 20px;
+                }
+                .a-text {
+                    padding-top: 15px;
+                }
+                .a-text p {
+                    font-size: 14px;
+                }
+                /* Pre-Program部分 */
+                .p-title h2 {
+                    font-size: 36px;
+                }
+                .p-sub-title {
+                    margin-bottom: 30px;
+                }
+                .p-sub-title h3 {
+                    font-size: 26px;
+                }
+                .p-bg {
+                    height: 250px;
+                }
+                .p-bg img {
+                    width: 100px;
+                    top: -54px;
+                    left: -38px;
+                }
+                .p-status {
+                    height: 70px;
+                }
+                .p-status>div {
+                    font-size: 16px;
+                }
+                .fz-60 {
+                    font-size: 40px;
+                }
+                .fz-47 {
+                    font-size: 32px;
+                }
+                .fz-24 {
+                    font-size: 14px;
+                }
+                /* Study Theme */
+                .s-text h4 {
+                    font-size: 20px;
+                }
+                .s-text p {
+                    font-size: 13px;
+                }
+                /* Theachers */
+                .teach-title {
+                    margin: 40px auto 25px;
+                }
+                .t-cnt {
+                    width: 180px;
+                }
+                .t-cnt:not(:last-child) {
+                    margin-right: 35px;
+                }
+                .person-name {
+                    font-size: 22px;
+                }
+                .person-name-en {
+                    line-height: 2.5;
+                }
+                .person-status {
+                    font-size: 12px;
+                }
+                /* .study-program */
+                .sp-title {
+                    margin-top: 65px;
+                }
+                .study-program tr {
+                    font-size: 14px;
+                }
+                /* what do */
+                .what-do {
+                    height: 275px;
+                    margin-bottom: 90px;
+                }
+                .what-do h4 {
+                    font-size: 20px;
+                }
+                .what-do p {
+                    font-size: 14px;
+                }
+                /* OPEN SEMINAR 部分 */
+                .seminar {
+                    height: 660px;
+                }
+                .semi-title {
+                    font-size: 36px;
+                    padding-top: 40px;
+                }
+                .semi-title-jp {
+                    margin-top: 8px;
+                    margin-bottom: 40px;
+                }
+                .semi-cnt h3 {
+                    font-size: 28px;
+                    margin-top: 25px;
+                    margin-bottom: 7px;
+                }
+                .semi-cnt-text {
+                    font-size: 14px;
+                }
+                .yellow-btn {
+                    font-size: 14px;
+                    margin-top: 25px;
+                    margin-bottom: 30px;
+                }
+                .semi-people {
+                    width: 47%;
+                }
+                .semi-person {
+                    width: 100px;
+                }
+                .semi-person-name {
+                    font-size: 18px;
+                }
+                .semi-person-status {
+                    font-size: 12px;
+                }
+                /* ONLINE GUIDANCE 部分 */
+                .g-title {
+                    font-size: 36px;
+                }
+                .g-day {
+                    font-size: 16px;
+                }
+                .g-day span {
+                    font-size: 28px;
+                }
+                .g-time {
+                    font-size: 10px;
+                }
+                .guidance .yellow-btn {
+                    padding: 10px 50px;
+                    margin-bottom: 10px;
+                }
+                /* APPLICATION 部分 */
+                .app-title {
+                    font-size: 36px;
+                    padding-top: 70px;
+                }
+                .app-text {
+                    font-size: 14px;
+                    margin-top: 25px;
+                    margin-bottom: 35px;
+                }
+                .app-btn {
+                    font-size: 20px;
+                    padding: 10px 110px;
+                }
+                /* footer部分 */
+                .footer-title {
+                    font-size: 36px;
+                    margin-top: 47px;
+                }
+                .footer-text-1 {
+                    font-size: 14px;
+                    margin-top: 34px;
+                    margin-bottom: 28px;
+                }
+                .footer-text-2 {
+                    font-size: 14px;
+                    padding-bottom: 35px;
+                }
             }
