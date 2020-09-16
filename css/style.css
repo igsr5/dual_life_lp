@@ -673,6 +673,10 @@
                 background: #6F6F6F;
                 margin-bottom: 0;
             }
+            
+            .mobile {
+                display: none;
+            }
             /*********************
              * pc用(1024~1440px)
              *********************/
@@ -951,5 +955,184 @@
                 .footer-text-2 {
                     font-size: 14px;
                     padding-bottom: 35px;
+                }
+            }
+            /*********************
+             * モバイル用(~768px)
+             *********************/
+            
+            @media screen and (max-width: 768px) {
+                /* ページ全体の設定 */
+                .container {
+                    width: 92%;
+                    max-width: 570px;
+                }
+                .mobile {
+                    display: block;
+                }
+                .pc {
+                    display: none;
+                }
+                /* ヘッダー 部分 */
+                header {
+                    background: #ffffff;
+                    height: 60px;
+                }
+                header img {
+                    width: 165px;
+                    height: 35px;
+                }
+                .hum-btn {
+                    width: 30px;
+                    height: 12px;
+                }
+                .hum-btn>div {
+                    height: 2px;
+                }
+                .hum-btn>div:last-child {
+                    margin-top: 8px;
+                }
+                /* トップ部分 */
+                .top {
+                    height: 600px;
+                    background-image: url('../assets/images/top-bg-sp.png');
+                }
+                .t-logo {
+                    padding-top: 160px;
+                    padding-bottom: 16px;
+                }
+                .t-logo img {
+                    height: 44px;
+                }
+                .t-title {
+                    width: 79%;
+                    transform: none;
+                    margin-top: 0;
+                }
+                .t-title img {
+                    width: 100px;
+                    top: 309px;
+                    right: -15px;
+                }
+                .t-title h2 {
+                    margin: 0;
+                }
+                h2.t-title-2 {
+                    margin: 6px 16px 0;
+                }
+                .t-title-1:last-child {
+                    margin-top: 6px;
+                }
+                .t-title-2 {
+                    margin-right: 16px;
+                }
+                /* about部分 */
+                .about h2 {
+                    font-size: 30px;
+                    margin-top: 43px;
+                }
+                .a-title-jp {
+                    margin-top: 8px;
+                }
+                .a-title h3 {
+                    font-size: 20px;
+                }
+                .a-cnt {
+                    display: block;
+                }
+                .a-cnt img {
+                    width: 85%;
+                    margin-right: 0;
+                }
+                .a-text {
+                    width: 100%;
+                }
+                .a-text p {
+                    font-size: 16px;
+                }
+                /* Pre Program 部分 */
+                .p-title h2 {
+                    font-size: 30px;
+                    margin-top: 37px;
+                }
+                .p-title-jp {
+                    margin-top: 8px;
+                }
+                .p-logo.mobile {
+                    display: flex;
+                }
+                .p-logo img {
+                    width: 50%;
+                }
+                .p-bg {
+                    height: 210px;
+                }
+                .p-bg img {
+                    display: none;
+                }
+                .p-sub-title {
+                    transform: translateY(-20px);
+                    margin-bottom: 0;
+                }
+                .p-sub-title h3 {
+                    font-size: 16px;
+                    line-height: 1.75;
+                }
+                .p-sub-title h3:first-child {
+                    margin-bottom: 0;
+                }
+                .p-status.mobile {
+                    width: 100%;
+                    height: auto;
+                }
+                .p-status.mobile>div {
+                    font-size: 24px;
+                }
+                .p-status.mobile>div:first-child {
+                    border-bottom: 3px solid #fff;
+                    border-right: 0;
+                    margin: 0 auto;
+                    width: 90%;
+                }
+                .p-status.mobile>div:last-child {
+                    font-size: 18px;
+                    margin: 0;
+                    padding: 9px 0 15px;
+                }
+                .fz-60 {
+                    font-size: 55px;
+                }
+                .fz-24 {
+                    font-size: 20px;
+                }
+                /* study-theme */
+                .st-title {
+                    margin: 20px auto;
+                    width: 288px;
+                }
+                .s-cnt {
+                    display: block;
+                }
+                .s-cnt>div {
+                    width: 100%;
+                }
+                .s-img p {
+                    font-size: 12px;
+                    padding: 0 15px;
+                    line-height: 20px;
+                    height: 20px;
+                }
+                .s-text h4 {
+                    font-size: 16px;
+                    text-align: center;
+                    margin: 20px 0;
+                }
+                .s-text p {
+                    font-size: 16px;
+                }
+                /* teachers */
+                .teach-title {
+                    margin: 50px auto 35px;
+                    width: 288px;
                 }
             }
