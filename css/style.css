@@ -1187,4 +1187,21 @@
                     display: table-cell;
                     border-top: none;
                 }
+                /* 何が学べる？何ができる？ */
+                .what-do {
+                    height: 400px;
+                    background-image: url('../assets/images/description-background-sp.png');
+                    background-size: 100% 100%;
+                    background-position: center;
+                    margin-bottom: 30px;
+                }
+                .what-do h4 {
+                    font-size: 24px;
+                    padding-top: 31px;
+                }
+                .what-do p {
+                    width: 92%;
+                    font-size: 16px;
+                    padding-top: 38px;
+                }
             }
