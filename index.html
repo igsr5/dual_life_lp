@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
     <!-- slick -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css">
+    <link rel="stylesheet" href="css/slick.css">
 
     <!-- 自作css -->
     <link rel="stylesheet" href="css/style.css">
@@ -141,7 +141,8 @@
 
             <div class="teachers">
                 <img src="./assets/images/teachers.png" alt="" class='teach-title'>
-                <div class="t-cnts slick">
+                <!-- pc用 -->
+                <div class="t-cnts pc">
                     <div class="t-cnt">
                         <img src="./assets/images/teacher1-1.png" alt="">
                         <p class='person-name'>鈴木 将</p>
@@ -162,7 +163,33 @@
                         <p class='person-status'>長岡大学<br>●●●●●●●教授</p>
                     </div>
                 </div>
+
+                <!-- モバイル用 -->
+                <div class="sliderArea mobile">
+                    <div class="t-cnts slider mobile">
+                        <div class="t-cnt" style="width:220px;">
+                            <img src="./assets/images/teacher1-1.png" alt="">
+                            <p class='person-name'>鈴木 将</p>
+                            <p class="person-name-en">SHO SUZUKI </p>
+                            <p class='person-status'>SUZUグループオーナーシェフ<br>食文化プロデューサー
+                            </p>
+                        </div>
+                        <div class="t-cnt">
+                            <img src="./assets/images/teacher1-2.png" alt="">
+                            <p class='person-name'>小笠原 渉</p>
+                            <p class="person-name-en">Wataru Ogasawara</p>
+                            <p class='person-status'>長岡技術科学大学<br>技術科学イノベーション専攻<br>（兼 生物機能工学専攻）教授</p>
+                        </div>
+                        <div class="t-cnt">
+                            <img src="./assets/images/teacher1-3.png" alt="">
+                            <p class='person-name'>粟井 英大</p>
+                            <p class="person-name-en">Hidehiro Kurii</p>
+                            <p class='person-status'>長岡大学<br>●●●●●●●教授</p>
+                        </div>
+                    </div>
+                </div>
             </div>
+
 
             <div class="study-program">
                 <img src="./assets/images/study-program.png" alt="" class="sp-title">
@@ -171,43 +198,64 @@
                         <td class='td-num'>01</td>
                         <td>9/29(火)</td>
                         <td>オンライン</td>
-                        <td>地域を俯瞰で見るSUZUグループの取組み</td>
+                        <td class="pc">地域を俯瞰で見るSUZUグループの取組み</td>
+                    </tr>
+                    <tr class="mobile">
+                        <td colspan="3">地域を俯瞰で見るSUZUグループの取組み</td>
                     </tr>
                     <tr>
                         <td class="td-num">02</td>
                         <td>10/13(火)</td>
                         <td>オンライン</td>
-                        <td>長岡の醸造の歴史(仮)</td>
+                        <td class="pc">長岡の醸造の歴史(仮)</td>
+                    </tr>
+                    <tr class="mobile">
+                        <td colspan="3">地域を俯瞰で見るSUZUグループの取組み</td>
                     </tr>
                     <tr>
                         <td class="td-num">03</td>
                         <td>10/31(土)</td>
                         <td>フィールド</td>
-                        <td>生産者含め現地視察ツアー&商品開発アイデア出し</td>
+                        <td class="pc">生産者含め現地視察ツアー&商品開発アイデア出し</td>
+                    </tr>
+                    <tr class="mobile">
+                        <td colspan="3">地域を俯瞰で見るSUZUグループの取組み</td>
                     </tr>
                     <tr>
                         <td class="td-num">04</td>
                         <td>11/4(水)</td>
                         <td>オンライン</td>
-                        <td>県外雪国の「冬の食に関する知恵、工夫」</td>
+                        <td class="pc">県外雪国の「冬の食に関する知恵、工夫」</td>
+                    </tr>
+                    <tr class="mobile">
+                        <td colspan="3">地域を俯瞰で見るSUZUグループの取組み</td>
                     </tr>
                     <tr>
                         <td class="td-num">05</td>
                         <td>11/14(土)</td>
                         <td>フィールド</td>
-                        <td>商品開発meeting</td>
+                        <td class="pc">商品開発meeting</td>
+                    </tr>
+                    <tr class="mobile">
+                        <td colspan="3">地域を俯瞰で見るSUZUグループの取組み</td>
                     </tr>
                     <tr>
                         <td class="td-num">06</td>
                         <td>11/28(土)</td>
                         <td>フィールド</td>
-                        <td>実際に商品製造の工程を体験or施策会orアレンジレシピ</td>
+                        <td class="pc">実際に商品製造の工程を体験or施策会orアレンジレシピ</td>
+                    </tr>
+                    <tr class="mobile">
+                        <td colspan="3">地域を俯瞰で見るSUZUグループの取組み</td>
                     </tr>
                     <tr>
                         <td class="td-num">07</td>
                         <td>12/12(土)</td>
                         <td>フィールド</td>
-                        <td>卒業発表（弁当販売)</td>
+                        <td class="pc">卒業発表（弁当販売)</td>
+                    </tr>
+                    <tr class="mobile">
+                        <td colspan="3">地域を俯瞰で見るSUZUグループの取組み</td>
                     </tr>
                 </table>
             </div>
@@ -295,8 +343,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
     <!-- slick -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
-
+    <script src="js/slick.js"></script>
     <!-- 自作js -->
     <script src="js/main.js"></script>
 </body>

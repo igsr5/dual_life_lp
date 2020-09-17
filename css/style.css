@@ -393,6 +393,8 @@
             .study-program tr:last-child td {
                 border-bottom: #dee2e6 1px solid;
             }
+            
+            .mobile-tr {}
             /* 何が学べる？何ができる？部分 */
             
             .what-do {
@@ -1134,5 +1136,55 @@
                 .teach-title {
                     margin: 50px auto 35px;
                     width: 288px;
+                }
+                .t-cnt {
+                    width: 63%;
+                }
+                .sliderArea {
+                    max-width: 100%;
+                }
+                .slick-slide {
+                    margin: 0 5px;
+                }
+                .slick-slide {
+                    width: 220px;
+                    transition: all ease-in-out .3s;
+                    opacity: .2;
+                }
+                .slick-active {
+                    opacity: 1;
+                }
+                .slick-current {
+                    opacity: 1;
+                }
+                .person-name {
+                    font-size: 24px;
+                }
+                .person-name-en {
+                    line-height: 3;
+                }
+                .person-status {
+                    font-size: 14px;
+                }
+                /* .study-program */
+                .study-program {
+                    margin-bottom: 50px;
+                }
+                .sp-title {
+                    margin-top: 42px;
+                    margin-bottom: 23px;
+                    width: 288px;
+                }
+                .study-program td {
+                    font-size: 13px;
+                    text-align: center;
+                }
+                tr.mobile {
+                    display: table-row;
+                    border-top: dashed 1px #dee2e6;
+                }
+                tr.mobile td {
+                    display: table-cell;
+                    border-top: none;
                 }
             }
