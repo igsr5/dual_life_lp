@@ -9,6 +9,9 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
+    <!-- slick -->
+    <link rel="stylesheet" href="css/slick.css">
+
     <!-- 自作css -->
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -32,15 +35,27 @@
 
     <!-- トップ部分 -->
     <div class="top text-center">
-        <!-- トップロゴ -->
-        <div class="t-logo">
-            <img src="assets/images/top-logo.png" alt="" height="60px">
-        </div>
-        <!-- トップタイトル -->
-        <div class="t-title">
-            <img src="assets/images/top-icon.png" alt="">
-            <h2 class='t-title-1'>あなたの人生の「１ページ」を</h2>
-            <h2 class='t-title-2'>新潟・長岡で作りませんか？</h2>
+        <div class="container">
+
+            <!-- トップロゴ -->
+            <div class="t-logo">
+                <img src="assets/images/top-logo.png" alt="" height="60px">
+            </div>
+            <!-- トップタイトル -->
+            <!-- pc用 -->
+            <div class="t-title pc">
+                <img src="assets/images/top-icon.png" alt="">
+                <h2 class='t-title-1'>あなたの人生の「１ページ」を</h2>
+                <h2 class='t-title-2'>新潟・長岡で作りませんか？</h2>
+            </div>
+            <!-- モバイル用 -->
+            <div class="t-title mobile">
+                <img src="assets/images/top-icon.png" alt="">
+                <h2 class='t-title-1'>あなたの人生の</h2>
+                <h2 class='t-title-2'>「１ページ」を</h2>
+                <h2 class='t-title-2'>新潟・長岡で</h2>
+                <h2 class='t-title-1'>作りませんか？</h2>
+            </div>
         </div>
     </div>
 
@@ -68,10 +83,15 @@
         <div class="container p-title">
             <h2>Pre-PROGRAM</h2>
             <p class='p-title-jp'>開講に向けたプレ・プログラム</p>
-            <div class='row p-logo'>
+            <div class='row p-logo pc'>
                 <img class='col-6' src="./assets/images/setan-squere.png" alt="">
                 <img class='col-6' src="./assets/images/ni-gata-squere.png" alt="">
             </div>
+        </div>
+
+        <div class='p-logo mobile'>
+            <img src="./assets/images/setan-squere-sp.png" alt="">
+            <img src="./assets/images/ni-gata-squere-sp.png" alt="">
         </div>
 
         <div class="p-bg">
@@ -81,15 +101,27 @@
         </div>
 
         <div class="container">
-            <div class="p-sub-title">
+            <!-- pc用 -->
+            <div class="p-sub-title pc">
                 <h3>長岡地域を共に学び、商品をつくり、新潟伊勢丹で販売！</h3>
                 <h3>商品開発プロジェクト</h3>
             </div>
-
-            <div class="p-status">
+            <div class="p-status pc">
                 <div><span class='fw-bold'>2020</span><span class="fz-24">年</span> <span class='fz-60'>9.30</span>~全8回</div>
                 <div>募集定員 <span class="fz-60">20</span>名</div>
                 <div>口座費 <span class="fz-60">5</span><span class='fz-47'>0,000</span>円</div>
+            </div>
+
+            <!-- モバイル用 -->
+            <div class="p-sub-title mobile">
+                <h3>長岡地域を共に学び、商品をつくり、</h3>
+                <h3>新潟伊勢丹で販売！</h3>
+                <h3>商品開発プロジェクト</h3>
+            </div>
+
+            <div class="p-status mobile">
+                <div><span class='fw-bold'>2020</span><span class="fz-24">年</span> <span class='fz-60'>9.30</span>~全8回</div>
+                <div>募集定員20名/講座費50,000円</div>
             </div>
 
             <div class="study-theme">
@@ -109,7 +141,8 @@
 
             <div class="teachers">
                 <img src="./assets/images/teachers.png" alt="" class='teach-title'>
-                <div class="t-cnts">
+                <!-- pc用 -->
+                <div class="t-cnts pc">
                     <div class="t-cnt">
                         <img src="./assets/images/teacher1-1.png" alt="">
                         <p class='person-name'>鈴木 将</p>
@@ -130,7 +163,33 @@
                         <p class='person-status'>長岡大学<br>●●●●●●●教授</p>
                     </div>
                 </div>
+
+                <!-- モバイル用 -->
+                <div class="sliderArea mobile">
+                    <div class="t-cnts slider mobile">
+                        <div class="t-cnt" style="width:220px;">
+                            <img src="./assets/images/teacher1-1.png" alt="">
+                            <p class='person-name'>鈴木 将</p>
+                            <p class="person-name-en">SHO SUZUKI </p>
+                            <p class='person-status'>SUZUグループオーナーシェフ<br>食文化プロデューサー
+                            </p>
+                        </div>
+                        <div class="t-cnt">
+                            <img src="./assets/images/teacher1-2.png" alt="">
+                            <p class='person-name'>小笠原 渉</p>
+                            <p class="person-name-en">Wataru Ogasawara</p>
+                            <p class='person-status'>長岡技術科学大学<br>技術科学イノベーション専攻<br>（兼 生物機能工学専攻）教授</p>
+                        </div>
+                        <div class="t-cnt">
+                            <img src="./assets/images/teacher1-3.png" alt="">
+                            <p class='person-name'>粟井 英大</p>
+                            <p class="person-name-en">Hidehiro Kurii</p>
+                            <p class='person-status'>長岡大学<br>●●●●●●●教授</p>
+                        </div>
+                    </div>
+                </div>
             </div>
+
 
             <div class="study-program">
                 <img src="./assets/images/study-program.png" alt="" class="sp-title">
@@ -139,51 +198,77 @@
                         <td class='td-num'>01</td>
                         <td>9/29(火)</td>
                         <td>オンライン</td>
-                        <td>地域を俯瞰で見るSUZUグループの取組み</td>
+                        <td class="pc">地域を俯瞰で見るSUZUグループの取組み</td>
+                    </tr>
+                    <tr class="mobile">
+                        <td colspan="3">地域を俯瞰で見るSUZUグループの取組み</td>
                     </tr>
                     <tr>
                         <td class="td-num">02</td>
                         <td>10/13(火)</td>
                         <td>オンライン</td>
-                        <td>長岡の醸造の歴史(仮)</td>
+                        <td class="pc">長岡の醸造の歴史(仮)</td>
+                    </tr>
+                    <tr class="mobile">
+                        <td colspan="3">地域を俯瞰で見るSUZUグループの取組み</td>
                     </tr>
                     <tr>
                         <td class="td-num">03</td>
                         <td>10/31(土)</td>
                         <td>フィールド</td>
-                        <td>生産者含め現地視察ツアー&商品開発アイデア出し</td>
+                        <td class="pc">生産者含め現地視察ツアー&商品開発アイデア出し</td>
+                    </tr>
+                    <tr class="mobile">
+                        <td colspan="3">地域を俯瞰で見るSUZUグループの取組み</td>
                     </tr>
                     <tr>
                         <td class="td-num">04</td>
                         <td>11/4(水)</td>
                         <td>オンライン</td>
-                        <td>県外雪国の「冬の食に関する知恵、工夫」</td>
+                        <td class="pc">県外雪国の「冬の食に関する知恵、工夫」</td>
+                    </tr>
+                    <tr class="mobile">
+                        <td colspan="3">地域を俯瞰で見るSUZUグループの取組み</td>
                     </tr>
                     <tr>
                         <td class="td-num">05</td>
                         <td>11/14(土)</td>
                         <td>フィールド</td>
-                        <td>商品開発meeting</td>
+                        <td class="pc">商品開発meeting</td>
+                    </tr>
+                    <tr class="mobile">
+                        <td colspan="3">地域を俯瞰で見るSUZUグループの取組み</td>
                     </tr>
                     <tr>
                         <td class="td-num">06</td>
                         <td>11/28(土)</td>
                         <td>フィールド</td>
-                        <td>実際に商品製造の工程を体験or施策会orアレンジレシピ</td>
+                        <td class="pc">実際に商品製造の工程を体験or施策会orアレンジレシピ</td>
+                    </tr>
+                    <tr class="mobile">
+                        <td colspan="3">地域を俯瞰で見るSUZUグループの取組み</td>
                     </tr>
                     <tr>
                         <td class="td-num">07</td>
                         <td>12/12(土)</td>
                         <td>フィールド</td>
-                        <td>卒業発表（弁当販売)</td>
+                        <td class="pc">卒業発表（弁当販売)</td>
+                    </tr>
+                    <tr class="mobile">
+                        <td colspan="3">地域を俯瞰で見るSUZUグループの取組み</td>
                     </tr>
                 </table>
             </div>
 
-            <div class="what-do">
+            <div class="what-do pc">
                 <h4>何が学べる？何ができる？</h4>
                 <p>地域の生産者との対話を踏まえて、商品を開発して新潟伊勢丹の「NIIGATA越品」として販売！！オンラインによる学びに加え、現地でオフラインによる実際の体験を通じて地域の理解と活性化について考える。また生産から販売までの一連の流れを見ることで、それぞれの立場、役割で何を考え、どう行動しているかを体感する。また、実際に開発された商品は新潟伊勢丹の「NIIGATA越品」での販売を目指す。</p>
             </div>
+        </div>
+
+        <div class="what-do mobile">
+            <h4>何が学べる？何ができる？</h4>
+            <p>地域の生産者との対話を踏まえて、商品を開発して新潟伊勢丹の「NIIGATA越品」として販売！！オンラインによる学びに加え、現地でオフラインによる実際の体験を通じて地域の理解と活性化について考える。また生産から販売までの一連の流れを見ることで、それぞれの立場、役割で何を考え、どう行動しているかを体感する。また、実際に開発された商品は新潟伊勢丹の「NIIGATA越品」での販売を目指す。</p>
         </div>
     </div>
 
@@ -194,16 +279,34 @@
             <p class="semi-title-jp">オープニングセミナー</p>
 
             <div class="semi-cnts">
-
                 <div class="semi-cnt">
                     <h3>長岡の産業の歴史と<br>「越品」の哲学</h3>
                     <p class='semi-time'><span class='fz-60'>9.15</span> TUE 19:00~20:30</p>
-                    <img src="./assets/images/program.png" alt="">
+                    <img class="pc" src="./assets/images/program.png" alt="">
+                    <img class="mobile" src="./assets/images/program-sp.png" alt="">
                     <p class="semi-cnt-text">この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。読んでも意味はありません。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。読んでも意味はありません。</p>
+
+                    <div class="mobile speaker">
+                        <img src="assets/images/speaker.png" alt="">
+
+                        <div class="semi-people">
+                            <div class="semi-person">
+                                <img src="./assets/images/teacher2-1.png" alt="">
+                                <p class='semi-person-name'>星野 圭二郎</p>
+                                <p class="semi-person-status">新潟三越伊勢丹<br>代表取締役社長</p>
+                            </div>
+                            <div class="semi-person">
+                                <img src="./assets/images/teacher2-2.png" alt="">
+                                <p class='semi-person-name'>小田 敏三</p>
+                                <p class="semi-person-status">新潟日報社<br>代表取締役社長</p>
+                            </div>
+
+                        </div>
+                    </div>
                     <a href="" class='yellow-btn'>セミナー参加予約はこちらから</a>
                 </div>
 
-                <div class="semi-people">
+                <div class="semi-people pc">
                     <div class="semi-person">
                         <img src="./assets/images/teacher2-1.png" alt="">
                         <p class='semi-person-name'>星野 圭二郎</p>
@@ -250,7 +353,7 @@
         <div class="container">
             <h2 class="footer-title">CONTACT</h2>
             <p class='footer-title-jp'>お問合せ先</p>
-            <p class='footer-text-1'>新潟日報・新潟三越伊勢丹　DUALLIFEプロジェクト事務局</p>
+            <p class='footer-text-1'>新潟日報・新潟三越伊勢丹　<br class="mobile">DUALLIFEプロジェクト事務局</p>
             <a class='app-btn' href="">問い合わせ</a>
             <p class='footer-text-2'>お急ぎの方はお電話でも受け付けております<br>000-000-0000<br>（平日10:00〜17:00）</p>
         </div>
@@ -261,6 +364,11 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <!-- slick -->
+    <script src="js/slick.js"></script>
+    <!-- 自作js -->
+    <script src="js/main.js"></script>
 </body>
 
 </html>
