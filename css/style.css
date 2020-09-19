@@ -809,6 +809,10 @@
                 .p-sub-title h3 {
                     font-size: 26px;
                 }
+                .p-logo {
+                    display: block;
+                    height: auto;
+                }
                 .p-bg {
                     height: 250px;
                 }
