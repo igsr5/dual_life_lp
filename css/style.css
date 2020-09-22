@@ -1072,6 +1072,7 @@
                 }
                 .p-logo img {
                     width: 50%;
+                    display: flex;
                 }
                 .p-bg {
                     height: 210px;
