@@ -1068,7 +1068,7 @@
                     margin-top: 8px;
                 }
                 .p-logo.mobile {
-                    /* display: flex; */
+                    display: flex;
                 }
                 .p-logo img {
                     width: 50%;
