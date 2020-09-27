@@ -37,10 +37,11 @@
             /* ヘッダー部分 */
             
             header {
-                position: absolute;
+                position: fixed;
                 top: 0;
                 width: 100%;
                 height: 90px;
+                z-index: 99999;
             }
             
             header>.container {
@@ -54,6 +55,7 @@
             .hum-btn {
                 height: 21px;
                 width: 50px;
+                cursor: pointer;
             }
             
             .hum-btn>div {
@@ -63,6 +65,37 @@
             
             .hum-btn>div:last-child {
                 margin-top: 15px;
+            }
+            
+            #slide_menu {
+                position: fixed;
+                top: 0;
+                left: -300px;
+                width: 300px;
+                height: 100%;
+                background: #e8e8e8;
+                opacity: 0.9;
+                z-index: 999999;
+            }
+            
+            #slide_menu ul {
+                list-style: none;
+                padding: 0;
+                margin: 10px 0 0;
+            }
+            
+            #slide_menu li {
+                border-bottom: 1px solid #bfbfbf;
+                padding: 20px 20px;
+                color: #292929;
+                font-size: 16px;
+                cursor: pointer;
+                -webkit-transition: .5s;
+                transition: .5s;
+            }
+            
+            #slide_menu li:hover {
+                font-size: 17px;
             }
             /* トップ部分 */
             
@@ -1001,6 +1034,10 @@
                 .hum-btn>div:last-child {
                     margin-top: 8px;
                 }
+                #slide_menu {
+                    width: 160px;
+                    left: -160px;
+                }
                 /* トップ部分 */
                 .top {
                     height: 600px;
@@ -1314,4 +1351,22 @@
                 .footer-title {
                     margin-top: 0;
                 }
+            }
+            
+            .toggle-btn div:first-child {
+                transform: rotate(45deg);
+            }
+            
+            .toggle-btn div:last-child {
+                transform: rotate(-45deg);
+                margin: -1px;
+            }
+            
+            .hum-btn {
+                transition: .5s;
+            }
+            
+            .hum-btn:active {
+                -webkit-transform: rotate(90deg);
+                transform: rotate(90deg);
             }
