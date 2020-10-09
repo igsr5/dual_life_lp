@@ -1100,7 +1100,7 @@
                     height: auto;
                 }
                 .p-status.mobile>div {
-                    font-size: 24px;
+                    font-size: 22px;
                 }
                 .p-status.mobile>div:first-child {
                     border-bottom: 3px solid #fff;
@@ -1114,10 +1114,10 @@
                     padding: 9px 0 15px;
                 }
                 .fz-60 {
-                    font-size: 55px;
+                    font-size: 50px;
                 }
                 .fz-24 {
-                    font-size: 20px;
+                    font-size: 18px;
                 }
                 /* study-theme */
                 .st-title {
