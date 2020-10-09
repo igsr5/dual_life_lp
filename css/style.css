@@ -120,7 +120,6 @@
             }
             
             .t-title h2 {
-                font-family: A-OTF Kakumin Pro;
                 font-size: 36px;
                 line-height: 1.2;
                 color: #ffffff;
@@ -149,7 +148,6 @@
             .about h2 {
                 font-size: 42px;
                 line-height: 1.33;
-                font-family: Alex;
                 margin-top: 49px;
             }
             
@@ -178,7 +176,6 @@
             }
             
             .a-title h3 {
-                font-family: A-OTF Reimin Y10 Pro;
                 font-size: 30px;
                 line-height: 1.6;
             }
@@ -193,7 +190,6 @@
             .a-text p {
                 font-size: 16px;
                 line-height: 2;
-                /* font-family: YuGothic; */
             }
             /* プレプログラム部分 */
             
@@ -204,7 +200,6 @@
             .p-title h2 {
                 font-size: 42px;
                 line-height: 1.33;
-                font-family: Alex;
                 margin-top: 33px;
             }
             
@@ -251,7 +246,6 @@
             
             .p-sub-title h3 {
                 line-height: 1;
-                font-family: A-OTF Reimin Y10 Pro;
                 font-size: 30px;
             }
             
@@ -269,7 +263,6 @@
                 padding: 0 23px;
                 margin: 12px 0;
                 font-size: 28px;
-                font-family: A-OTF Kakumin Pro;
             }
             
             .p-status>div:not(:last-child) {
@@ -282,19 +275,16 @@
             
             .fz-60 {
                 font-size: 60px;
-                font-family: Barlow;
                 font-weight: bold;
             }
             
             .fz-47 {
                 font-weight: bold;
-                font-family: Barlow;
                 font-size: 47px;
             }
             
             .fw-bold {
                 font-weight: bold;
-                font-family: Barlow;
             }
             /* study theme */
             
@@ -345,11 +335,9 @@
                 margin: 10px 0;
                 font-size: 24px;
                 line-height: 1.66;
-                font-family: A-OTF Kakumin Pro;
             }
             
             .s-text p {
-                font-family: YuGothic;
                 font-size: 15px;
                 line-height: 1.875;
                 letter-spacing: 0.04em;
@@ -383,19 +371,16 @@
             .person-name {
                 margin-top: 16px;
                 font-size: 24px;
-                font-family: YuGothic;
                 line-height: 1.25;
             }
             
             .person-name-en {
                 font-size: 10px;
-                font-family: YuGothic;
                 line-height: 3;
                 margin-bottom: 5px;
             }
             
             .person-status {
-                font-family: YuGothic;
                 font-size: 14px;
                 line-height: 1.42;
             }
@@ -413,7 +398,6 @@
             
             .study-program tr {
                 font-size: 16px;
-                font-family: YuGothic;
             }
             
             .table {
@@ -442,7 +426,6 @@
             
             .what-do h4 {
                 text-align: center;
-                font-family: A-OTF Kakumin Pro;
                 font-size: 24px;
                 padding-top: 50px;
             }
@@ -452,7 +435,6 @@
                 width: 68%;
                 line-height: 1.3;
                 margin: 0 auto;
-                font-family: YuGothic;
                 font-size: 16px;
             }
             /* Open Seminar部分 */
@@ -473,7 +455,6 @@
             
             .semi-title {
                 padding-top: 48px;
-                font-family: Alex;
                 font-size: 42px;
             }
             
@@ -501,7 +482,6 @@
                 margin-top: 34px;
                 margin-bottom: 13px;
                 font-size: 36px;
-                font-family: A-OTF Reimin Y10 Pro;
                 line-height: 1.33;
             }
             
@@ -510,7 +490,6 @@
                 width: 100%;
                 /* padding: 0 39px 0 28px; */
                 font-size: 30px;
-                font-family: Barlow;
                 line-height: 1.333;
             }
             
@@ -524,13 +503,11 @@
                 text-align: left;
                 font-size: 16px;
                 line-height: 1.34;
-                font-family: YuGothic;
             }
             
             .yellow-btn {
                 font-size: 19px;
                 font-weight: bold;
-                font-family: YuGothic;
                 padding: 18px 55px;
                 margin-top: 31px;
                 margin-bottom: 45px;
@@ -562,12 +539,10 @@
                 margin-top: 15px;
                 margin-bottom: 3px;
                 font-size: 24px;
-                font-family: YuGothic;
                 line-height: 1.25;
             }
             
             .semi-perosn-status {
-                font-family: YuGothic;
                 font-size: 14px;
                 line-height: 1.4;
             }
@@ -583,7 +558,6 @@
             
             .g-title {
                 font-size: 42px;
-                font-family: Alex;
                 line-height: 1.33;
                 padding-top: 36px;
                 padding-bottom: 5px;
@@ -606,7 +580,6 @@
                 font-size: 35px;
                 line-height: 1.33;
                 font-weight: bold;
-                font-family: Barlow;
             }
             
             .g-time {
@@ -628,7 +601,6 @@
             
             .app-title {
                 font-size: 42px;
-                font-family: Alex;
                 line-height: 1.33;
                 padding-top: 86px;
                 padding-bottom: 5px;
@@ -643,7 +615,6 @@
             .app-text {
                 font-size: 16px;
                 line-height: 1.33;
-                font-family: YuGothic;
                 margin-top: 30px;
                 margin-bottom: 42px;
             }
@@ -652,7 +623,6 @@
                 display: inline-block;
                 font-size: 24px;
                 font-weight: bold;
-                font-family: YuGothic;
                 line-height: 1.3;
                 color: #ffffff;
                 background: #FE3C3C;
@@ -675,7 +645,6 @@
             
             .footer-title {
                 font-size: 42px;
-                font-family: Alex;
                 line-height: 1.33;
                 padding-top: 47px;
                 padding-bottom: 5px;
@@ -691,7 +660,6 @@
                 font-size: 16px;
                 font-weight: bold;
                 line-height: 1.33;
-                font-family: YuGothic;
                 margin-top: 39px;
                 margin-bottom: 32px;
             }
@@ -700,7 +668,6 @@
                 font-size: 16px;
                 font-weight: bold;
                 line-height: 1.33;
-                font-family: YuGothic;
                 padding-top: 20px;
                 padding-bottom: 45px;
             }
